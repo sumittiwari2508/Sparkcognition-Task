@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253DEAC32DF36E0FAE5608BF /* Pods_Sparkcognition_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D198F73162EF794B5E438F8 /* Pods_Sparkcognition_Task.framework */; };
+		954C156E28B3C0D7009991B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C156D28B3C0D7009991B4 /* AppDelegate.swift */; };
+		954C157028B3C0D7009991B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C156F28B3C0D7009991B4 /* SceneDelegate.swift */; };
+		954C157528B3C0D7009991B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954C157328B3C0D7009991B4 /* Main.storyboard */; };
+		954C157728B3C0D8009991B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954C157628B3C0D8009991B4 /* Assets.xcassets */; };
+		954C157A28B3C0D8009991B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954C157828B3C0D8009991B4 /* LaunchScreen.storyboard */; };
+		954C158728B3C274009991B4 /* BeerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C158628B3C274009991B4 /* BeerListModel.swift */; };
+		954C158B28B3C2A4009991B4 /* DataParserVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C158A28B3C2A4009991B4 /* DataParserVM.swift */; };
+		954C158D28B3C2C3009991B4 /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C158C28B3C2C3009991B4 /* BeerListViewController.swift */; };
+		954C159028B3C9FD009991B4 /* BeerTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C158E28B3C9FD009991B4 /* BeerTVCell.swift */; };
+		954C159128B3C9FD009991B4 /* BeerTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954C158F28B3C9FD009991B4 /* BeerTVCell.xib */; };
+		954C159628B3D362009991B4 /* CustomActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954C159528B3D362009991B4 /* CustomActivityIndicator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D198F73162EF794B5E438F8 /* Pods_Sparkcognition_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sparkcognition_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954C156A28B3C0D7009991B4 /* Sparkcognition Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sparkcognition Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954C156D28B3C0D7009991B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		954C156F28B3C0D7009991B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		954C157428B3C0D7009991B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		954C157628B3C0D8009991B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954C157928B3C0D8009991B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		954C157B28B3C0D8009991B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954C158628B3C274009991B4 /* BeerListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListModel.swift; sourceTree = "<group>"; };
+		954C158A28B3C2A4009991B4 /* DataParserVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParserVM.swift; sourceTree = "<group>"; };
+		954C158C28B3C2C3009991B4 /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		954C158E28B3C9FD009991B4 /* BeerTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTVCell.swift; sourceTree = "<group>"; };
+		954C158F28B3C9FD009991B4 /* BeerTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerTVCell.xib; sourceTree = "<group>"; };
+		954C159528B3D362009991B4 /* CustomActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicator.swift; sourceTree = "<group>"; };
+		E907F946A6463E99CD8612AB /* Pods-Sparkcognition Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparkcognition Task.release.xcconfig"; path = "Target Support Files/Pods-Sparkcognition Task/Pods-Sparkcognition Task.release.xcconfig"; sourceTree = "<group>"; };
+		EEEDD51C765622A8925DE4EE /* Pods-Sparkcognition Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sparkcognition Task.debug.xcconfig"; path = "Target Support Files/Pods-Sparkcognition Task/Pods-Sparkcognition Task.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954C156728B3C0D7009991B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253DEAC32DF36E0FAE5608BF /* Pods_Sparkcognition_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2571CA9C10934819FC99DF15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D198F73162EF794B5E438F8 /* Pods_Sparkcognition_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		954C156128B3C0D7009991B4 = {
+			isa = PBXGroup;
+			children = (
+				954C156C28B3C0D7009991B4 /* Sparkcognition Task */,
+				954C156B28B3C0D7009991B4 /* Products */,
+				97DB0BE8249991E03534C60C /* Pods */,
+				2571CA9C10934819FC99DF15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		954C156B28B3C0D7009991B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954C156A28B3C0D7009991B4 /* Sparkcognition Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954C156C28B3C0D7009991B4 /* Sparkcognition Task */ = {
+			isa = PBXGroup;
+			children = (
+				954C159228B3D0DC009991B4 /* SupportingFiles */,
+				954C158428B3C23E009991B4 /* Model */,
+				954C158328B3C238009991B4 /* ViewModel */,
+				954C158528B3C246009991B4 /* View */,
+				954C158228B3C230009991B4 /* Controller */,
+				954C158128B3C215009991B4 /* AppDelegate */,
+				954C157328B3C0D7009991B4 /* Main.storyboard */,
+				954C157628B3C0D8009991B4 /* Assets.xcassets */,
+				954C157828B3C0D8009991B4 /* LaunchScreen.storyboard */,
+				954C157B28B3C0D8009991B4 /* Info.plist */,
+			);
+			path = "Sparkcognition Task";
+			sourceTree = "<group>";
+		};
+		954C158128B3C215009991B4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				954C156D28B3C0D7009991B4 /* AppDelegate.swift */,
+				954C156F28B3C0D7009991B4 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		954C158228B3C230009991B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				954C158C28B3C2C3009991B4 /* BeerListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		954C158328B3C238009991B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				954C158A28B3C2A4009991B4 /* DataParserVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		954C158428B3C23E009991B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				954C158628B3C274009991B4 /* BeerListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		954C158528B3C246009991B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				954C158E28B3C9FD009991B4 /* BeerTVCell.swift */,
+				954C158F28B3C9FD009991B4 /* BeerTVCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		954C159228B3D0DC009991B4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				954C159528B3D362009991B4 /* CustomActivityIndicator.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		97DB0BE8249991E03534C60C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEEDD51C765622A8925DE4EE /* Pods-Sparkcognition Task.debug.xcconfig */,
+				E907F946A6463E99CD8612AB /* Pods-Sparkcognition Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954C156928B3C0D7009991B4 /* Sparkcognition Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954C157E28B3C0D8009991B4 /* Build configuration list for PBXNativeTarget "Sparkcognition Task" */;
+			buildPhases = (
+				8E1C522AA681E3E69729A6EC /* [CP] Check Pods Manifest.lock */,
+				954C156628B3C0D7009991B4 /* Sources */,
+				954C156728B3C0D7009991B4 /* Frameworks */,
+				954C156828B3C0D7009991B4 /* Resources */,
+				3A923FD1D558C3C1125CEAFA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sparkcognition Task";
+			productName = "Sparkcognition Task";
+			productReference = 954C156A28B3C0D7009991B4 /* Sparkcognition Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954C156228B3C0D7009991B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					954C156928B3C0D7009991B4 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 954C156528B3C0D7009991B4 /* Build configuration list for PBXProject "Sparkcognition Task" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954C156128B3C0D7009991B4;
+			productRefGroup = 954C156B28B3C0D7009991B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954C156928B3C0D7009991B4 /* Sparkcognition Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954C156828B3C0D7009991B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C157A28B3C0D8009991B4 /* LaunchScreen.storyboard in Resources */,
+				954C157728B3C0D8009991B4 /* Assets.xcassets in Resources */,
+				954C157528B3C0D7009991B4 /* Main.storyboard in Resources */,
+				954C159128B3C9FD009991B4 /* BeerTVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A923FD1D558C3C1125CEAFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparkcognition Task/Pods-Sparkcognition Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sparkcognition Task/Pods-Sparkcognition Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sparkcognition Task/Pods-Sparkcognition Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1C522AA681E3E69729A6EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sparkcognition Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954C156628B3C0D7009991B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954C158D28B3C2C3009991B4 /* BeerListViewController.swift in Sources */,
+				954C156E28B3C0D7009991B4 /* AppDelegate.swift in Sources */,
+				954C157028B3C0D7009991B4 /* SceneDelegate.swift in Sources */,
+				954C158B28B3C2A4009991B4 /* DataParserVM.swift in Sources */,
+				954C159628B3D362009991B4 /* CustomActivityIndicator.swift in Sources */,
+				954C159028B3C9FD009991B4 /* BeerTVCell.swift in Sources */,
+				954C158728B3C274009991B4 /* BeerListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		954C157328B3C0D7009991B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954C157428B3C0D7009991B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		954C157828B3C0D8009991B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954C157928B3C0D8009991B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954C157C28B3C0D8009991B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		954C157D28B3C0D8009991B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954C157F28B3C0D8009991B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEDD51C765622A8925DE4EE /* Pods-Sparkcognition Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQQ886464R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sparkcognition Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sparkcognition-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954C158028B3C0D8009991B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E907F946A6463E99CD8612AB /* Pods-Sparkcognition Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQQ886464R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sparkcognition Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sparkcognition-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954C156528B3C0D7009991B4 /* Build configuration list for PBXProject "Sparkcognition Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C157C28B3C0D8009991B4 /* Debug */,
+				954C157D28B3C0D8009991B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954C157E28B3C0D8009991B4 /* Build configuration list for PBXNativeTarget "Sparkcognition Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954C157F28B3C0D8009991B4 /* Debug */,
+				954C158028B3C0D8009991B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954C156228B3C0D7009991B4 /* Project object */;
+}
